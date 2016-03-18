@@ -1,0 +1,12 @@
+dispatch:
+  # Default module serves the typical web resources and all static resources.
+  - url: "*/favicon.ico"
+    module: default
+
+  # Default module serves simple hostname request.
+  - url: "sample-gae-app.com/"
+    module: default
+
+  # Send all mobile traffic to the mobile frontend.
+  - url: "php.sample-gae-app.com/"
+    module: php

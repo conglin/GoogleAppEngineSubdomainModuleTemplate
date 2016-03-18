@@ -1,0 +1,10 @@
+application: sample-gae-app
+module: php
+version: alpha-001
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /.*
+  script: home.php
+  secure: optional
