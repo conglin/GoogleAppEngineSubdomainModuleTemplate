@@ -4,9 +4,9 @@ dispatch:
     module: default
 
   # Default module serves simple hostname request.
-  - url: "sample-gae-app.com/"
+  - url: "portal.bonlineapp.com/"
     module: default
 
-  # Send all mobile traffic to the mobile frontend.
-  - url: "php.sample-gae-app.com/"
-    module: php
+  # Send all mobile traffic to the service module.
+  - url: "service.portal.bonlineapp.com/"
+    module: service

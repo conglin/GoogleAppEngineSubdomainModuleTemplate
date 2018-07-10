@@ -1,3 +1,3 @@
 ## Google App Engine subdomain as modules documentation
 
-This documentation is meant to give you a clear idea on how to set up your modules in Google App Engine so that each module is set up as a subdomain, either in the same runtime or otherwise. In this repository you'll see the example of sample-gae-app.com (python) is used as the default repository, php.sample-gae-app.com points to the php directory and module (php). Hope this helps.
+This documentation is meant to give you a clear idea on how to set up your modules in Google App Engine so that each module is set up as a subdomain, either in the same runtime or otherwise. In this repository you'll see the example of sample-gae-app.com (python) is used as the default repository, service.sample-gae-app.com points to the service directory and module (service). Hope this helps.
